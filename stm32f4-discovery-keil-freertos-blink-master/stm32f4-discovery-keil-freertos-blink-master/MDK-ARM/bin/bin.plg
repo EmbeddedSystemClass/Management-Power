@@ -1,0 +1,534 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\GiangND\Desktop\enery\Desktop\stm32f4-discovery-keil-freertos-blink-master\stm32f4-discovery-keil-freertos-blink-master\stm32f4-discovery-keil-freertos-blink-master\MDK-ARM\STM32F4-Discovery-blink-freertos.uvproj
+Project File Date:  08/10/2017
+
+<h2>Output:</h2>
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(124): warning:  #177-D: variable "ui8_display_timeout" was declared but never referenced
+..\STM32F4_Discovery\io.c(285): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29468 RO-data=516 RW-data=320 ZI-data=78672  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 4 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Internal DLL Error
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(315): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29516 RO-data=516 RW-data=320 ZI-data=78672  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling main.c...
+..\main.c(64): warning:  #177-D: variable "buff" was declared but never referenced
+..\main.c(64): warning:  #177-D: variable "data_second" was declared but never referenced
+..\main.c(276): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+..\main.c(277): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+..\main.c(278): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+..\main.c(283): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+..\main.c(284): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+..\main.c(285): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+..\main.c(290): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+..\main.c(291): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+..\main.c(292): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+..\main.c(316): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+..\main.c(317): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+..\main.c(318): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+..\main.c(323): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+..\main.c(324): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+..\main.c(325): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+..\main.c(330): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+..\main.c(331): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+..\main.c(332): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+..\main.c(343): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+..\main.c(160): warning:  #177-D: variable "buf" was declared but never referenced
+..\main.c(161): warning:  #177-D: variable "buf1" was declared but never referenced
+..\main.c(162): warning:  #177-D: variable "buf2" was declared but never referenced
+..\main.c(170): warning:  #550-D: variable "read_pwr" was set but never used
+..\main.c(171): warning:  #177-D: variable "u8_temp" was declared but never referenced
+..\main.c(157): warning: C4017W: flag_ade may be used before being set
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(317): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+compiling flash.c...
+..\STM32F4_Discovery\flash.c(303): warning:  #550-D: variable "data_init" was set but never used
+linking...
+Program Size: Code=29592 RO-data=516 RW-data=324 ZI-data=78668  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 31 Warning(s).
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(317): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29596 RO-data=516 RW-data=324 ZI-data=78668  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(317): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29596 RO-data=516 RW-data=324 ZI-data=78668  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(318): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29600 RO-data=516 RW-data=324 ZI-data=78668  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(319): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29600 RO-data=516 RW-data=324 ZI-data=78668  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(124): warning:  #550-D: variable "ui8_display_timeout" was set but never used
+..\STM32F4_Discovery\io.c(319): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29564 RO-data=516 RW-data=324 ZI-data=78668  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 4 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(124): warning:  #550-D: variable "ui8_display_timeout" was set but never used
+..\STM32F4_Discovery\io.c(328): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29564 RO-data=516 RW-data=324 ZI-data=78668  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 4 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(328): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29588 RO-data=516 RW-data=324 ZI-data=78668  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(327): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29604 RO-data=516 RW-data=324 ZI-data=78668  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(328): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29588 RO-data=516 RW-data=324 ZI-data=78668  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(330): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29572 RO-data=516 RW-data=324 ZI-data=78668  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(330): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29596 RO-data=516 RW-data=324 ZI-data=78668  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(330): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29588 RO-data=516 RW-data=324 ZI-data=78668  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(330): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29604 RO-data=516 RW-data=324 ZI-data=78668  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(332): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29604 RO-data=516 RW-data=324 ZI-data=78668  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(332): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29616 RO-data=516 RW-data=324 ZI-data=78668  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(333): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29640 RO-data=516 RW-data=324 ZI-data=78668  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(334): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29640 RO-data=516 RW-data=324 ZI-data=78668  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(334): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29612 RO-data=516 RW-data=324 ZI-data=78668  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(334): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29560 RO-data=516 RW-data=320 ZI-data=78672  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(334): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29576 RO-data=516 RW-data=320 ZI-data=78672  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Build target 'stm32f4_blink_freertos'
+linking...
+Program Size: Code=29576 RO-data=516 RW-data=320 ZI-data=78672  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 0 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(334): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29560 RO-data=516 RW-data=320 ZI-data=78672  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(334): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29560 RO-data=516 RW-data=320 ZI-data=78672  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(334): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29560 RO-data=516 RW-data=320 ZI-data=78672  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(334): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29564 RO-data=516 RW-data=320 ZI-data=78672  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(338): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29584 RO-data=516 RW-data=320 ZI-data=78672  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(338): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29584 RO-data=516 RW-data=320 ZI-data=78672  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(338): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29580 RO-data=516 RW-data=320 ZI-data=78672  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(339): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29580 RO-data=516 RW-data=320 ZI-data=78672  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(339): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29580 RO-data=516 RW-data=320 ZI-data=78672  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(339): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29580 RO-data=516 RW-data=320 ZI-data=78672  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(339): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29580 RO-data=516 RW-data=320 ZI-data=78672  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'stm32f4_blink_freertos'
+compiling io.c...
+..\STM32F4_Discovery\io.c(121): warning:  #177-D: variable "buf1" was declared but never referenced
+..\STM32F4_Discovery\io.c(339): warning:  #177-D: variable "ui8_t" was declared but never referenced
+..\STM32F4_Discovery\io.c(119): warning: C4017W: flag_ade_proc may be used before being set
+linking...
+Program Size: Code=29596 RO-data=516 RW-data=320 ZI-data=78672  
+FromELF: creating hex file...
+".\bin\bin.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Users\\GiangND\\Desktop\\enery\\Desktop\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\stm32f4-discovery-keil-freertos-blink-master\\MDK-ARM\\bin\\bin.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
